@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap",
+  "name": "maketoflendingshop",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,20 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anyashelby/firstproject.git"
+    "url": "git+https://github.com/anyashelby/pulses_hop.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anyashelby/firstproject/issues"
+    "url": "https://github.com/anyashelby/pulses_hop/issues"
   },
-  "homepage": "https://github.com/anyashelby/firstproject#readme",
-  "dependencies": {
-    "gulp": "^4.0.2"
-  },
+  "homepage": "https://github.com/anyashelby/pulses_hop#readme",
   "devDependencies": {
     "browser-sync": "^2.27.11",
-    "gulp-autoprefixer": "^6.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
     "gulp-rename": "^2.0.0",
