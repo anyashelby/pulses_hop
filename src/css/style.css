@@ -181,6 +181,11 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 1000px) {
+  .container {
+    max-width: 900px;
+  }
+}
 * {
   font-family: "Museo Sans Cyrl", sans-serif;
 }
