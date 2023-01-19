@@ -11,7 +11,14 @@ $(document).ready(function(){
                 breakpoint: 992,
                 settings: {
                     dots: true,
-                    arrows: false
+                    arrows: false,
+                    autoplay: false
+                },
+                breakpoint: 882,
+                settings: {
+                    autoplay: false,
+                    dots: true
+                    
                 }
             },
         ]
@@ -22,6 +29,9 @@ $(document).ready(function(){
           .closest('div.container').find('div.catalog__content').removeClass('catalog__content_active').eq($(this)
           .index()).addClass('catalog__content_active');
     });
+
+
+    
 
 
 
