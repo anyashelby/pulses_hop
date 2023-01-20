@@ -11,6 +11,14 @@
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+    transition: 0.4s all;
+    &:hover {
+        background-color: #c70101bf;
+    }
+    &:active {
+        position: relative;
+        top: 1px;
+    }
     &_main {
         margin-top: 65px;
         width: 300px;
