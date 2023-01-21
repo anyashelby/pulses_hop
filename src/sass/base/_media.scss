@@ -244,6 +244,32 @@
             height: 40px;
         }
     }
+    .modal {
+        padding: 15px 25px 35px 25px;
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        .feed-form {
+            max-width: 220px;
+            input {
+                max-width: 250px;
+                max-height: 45px;
+            }
+            .button_submit {
+                height: 40px;
+                font-size: 13px;
+            }
+            
+        }
+        &__close {
+            right: -20px;
+            font-size: 26px;
+        }
+    }
+
 }
 @media (max-width: 410px) {
     .header {
