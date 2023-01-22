@@ -10,7 +10,6 @@ body {
 	max-width: 950px;
 	margin: 0 auto;
 }
-
 @import 'base/variables';
 @import 'blocks/promo';
 @import 'blocks/header';
@@ -24,4 +23,6 @@ body {
 @import 'blocks/review';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/pageup';
 @import 'base/media';
+@import 'base/animations';
